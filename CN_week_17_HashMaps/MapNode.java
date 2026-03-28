@@ -1,0 +1,14 @@
+package CN_week_17_HashMaps;
+
+public class MapNode<K,V> {
+K key;
+V value;
+MapNode<K,V> next=null;
+
+	public MapNode(K key, V value) {
+		this.key= key;
+		this.value=value;
+	}
+
+}
+
